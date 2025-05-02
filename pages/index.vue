@@ -66,7 +66,7 @@ export default {
     };
   },
   async mounted() {
-    // await this.getRegion()
+    await this.getRegion()
   },
   methods: {
     ...mapActions({
